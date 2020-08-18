@@ -1,0 +1,15 @@
+Enumeração Baseada em Acesso
+
+-Criar pasta do usuário
+    -Propriedades        
+        -Segurança
+            -Avançadas
+                -Desabilitar herança
+            -Adcionar permissão para o usuário da pasta
+-Gerenciador do Servidor
+    -Serviços de Arquivo e Armazenamento
+        -Compartilhamentos
+            -Botão direito na pasta
+                -Propriedades
+                    -Configurações
+                        -Habilitar enumeração baseada em acesso

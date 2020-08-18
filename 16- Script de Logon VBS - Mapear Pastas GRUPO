@@ -1,0 +1,25 @@
+Script de Logon VBS - Mapear Pastas GRUPO
+
+-Caminho de onde deve ficar o script
+    -C:\Windows\SYSVOL\sysvol\dominio.local\scripts
+-Modificar o script
+    -Alrear o nome do servidor no script
+    -Alterar o nome do grupo
+    -Alterar o caminho da pasta do grupo
+    -Adcionar linhas se necessário
+    -Alterar letra da unidade se houver usuários em mais de um grupo
+    -Alterar nome das impressoras compartilhadas
+    -Alerar caminho do encaminhamento de pasta
+    -Alterar nome do link do site
+    -Alterar url do site
+    -Alterar caminho de onde está icone
+    -Alterar letra da unidade para atalho do compartilhamento no desktop
+    -Alrerar mensagem de logon
+-Salvar onde deve está o script em extenção .VBS
+-Ferramentas
+    -Usuários e Computadores do Active Directory
+        -Botão direito no usuário
+            -Propriedades
+                -Perfil
+                    -Script de logon
+                        -nome do arquivo do script

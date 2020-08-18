@@ -1,0 +1,20 @@
+BACKUP
+
+-Gerenciador do Servidor
+   -Adcionar funçõres e recursos
+        -Recursos
+            -Backup do Windows Server
+   -Ferramentas
+        -Backup do Windows Server
+            -Backup Local
+                -Backup único
+                    -Personalizar
+                        -Adcionar Itens
+                            -Selecionar onde vai ser feito o Backup
+                                -Backup
+                -Agendamento de Backup
+                    -Personalizar
+                        -Adcionar Itens
+                            -Especificar horário
+                                -selecionar onde vai ser feito o Backup
+                                    -Backup

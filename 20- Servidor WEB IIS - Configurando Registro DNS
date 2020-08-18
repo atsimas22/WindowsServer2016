@@ -1,0 +1,11 @@
+Servidor WEB IIS - Configurando Registro DNS
+
+-Gerenciador do servidor
+    -Ferramentas
+        -DNS
+            -Zonas de pesquisa direta
+                -Nova zona
+                    -Zona primária
+                        -Para todos os serviddores DNS sendo executados em controladores de domíno neste domínio:
+                            -Nova Host (A ou AAAA)
+                                

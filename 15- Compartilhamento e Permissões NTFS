@@ -1,0 +1,15 @@
+Compartilhamento e Permissões NTFS
+
+-Criar pasta para compartilhamento
+    -Propriedades
+        -Compartilhamento
+            -Compartilhamento Avançado
+                -Permissões
+                    -Todos com controle total
+-Alrerar permissões da pasta        
+    -Propriedades        
+        -Segurança
+            -Avançadas
+                -Desabilitar herança
+            -Editar
+                    

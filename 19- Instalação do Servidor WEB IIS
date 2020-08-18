@@ -1,0 +1,9 @@
+Instalação do Servidor WEB IIS
+
+-Gerenciador do Servidor
+-Gerenciar
+    -Adcionar Funções de Recursos
+    -Tipo de instalação baseada em função ou recurso
+        -Servidor Web (IIS)
+            -Serviço de função
+-Inseriar o site no caminho C:/inepub/wwwroot

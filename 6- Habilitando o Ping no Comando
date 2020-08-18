@@ -1,0 +1,5 @@
+Habilitando o Ping no Comando
+
+-CMD
+    -netsh firewall set icmpsetting 8
+    -Para desfazer a ação: netsh firewall set icmpsetting 8 disable

@@ -1,0 +1,28 @@
+Pasta Base com Segurança
+
+-Criar pasta base
+    -Propriedades
+        -Compartilhamento
+            -Compartilhamento Avançado
+                -Colocar '$' no nome do compartilhamento
+                -Permissões
+                    -Todos com controle total
+        -Propriedades        
+        -Segurança
+            -Avançadas
+                -Desabilitar herança
+                -Adcionar
+                    -Selecionar uma entidade de segurança
+                        -Inrerir usuários do domínio
+                    -Aplicável a
+                        -Esta pasta somente
+            -Editar
+                -Remover usuários
+-Ferramentas
+    -Usuários e Computadores do Active Directory
+        -Botão direito no usuário
+            -Propriedades
+                -Perfil
+                    -Pasta base
+                        -Conectar
+                            -\\HostnameServidor\HOME$\%USERNAME%

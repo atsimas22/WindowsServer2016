@@ -1,0 +1,14 @@
+Como Recuperar RAID 1 no caso de falha em um HD
+
+-Gerenciamento de disco
+    -Botão direito no disco
+        -Reativar volume
+    -Remover RAID
+            -Botão direito no disco
+                -Remover espelho
+                    -Faltando
+    -Inicializar o disco inserido
+        -Inicializar o disco
+    -Remontar espelho
+        -Adcionar espelho
+            -

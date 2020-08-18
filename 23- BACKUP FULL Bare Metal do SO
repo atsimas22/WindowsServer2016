@@ -1,0 +1,17 @@
+BACKUP FULL Bare Metal do SO
+
+-Gerenciador do Servidor
+   -Ferramentas
+        -Backup do Windows Server
+            -Backup Local
+                -Backup único
+                    -Opções diferentes
+                        -Personalizar
+                            -Adcionar Itens
+                                -Recuperação bare-metal
+                                    -Selecionar onde vai ser feito o Backup
+                                        -Backup
+-Recuperar Backup do sistema
+    -Iniciar o servidor com a mídia de instalação
+        -Reparar o computador
+            -Recuperação da Imagem do Sistema

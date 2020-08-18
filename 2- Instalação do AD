@@ -1,0 +1,16 @@
+Instalação do AD
+
+-Gerenciador do Servidor
+-Gerenciar
+    -Adcionar Funções de Recursos
+    -Tipo de instalação baseada em função ou recurso
+    -Serviço de Domínio Active Directory
+    -Promover este servidor a um controlador de domínio
+-Adcionar uma nova floresta
+-Definir nível funcional
+-Colocar senha e restauração dos serviços de diretótio
+-serviços e Sites do Active Directory
+    -Sites
+        -Subnets
+            -Nova Sub-rede
+-Alterar endereço de DNS para o ip do servidor

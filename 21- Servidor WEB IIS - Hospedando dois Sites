@@ -1,0 +1,16 @@
+Servidor WEB IIS - Hospedando dois Sites
+
+-Criar pasta para o novo site e colocar o site lá
+-Gerenciador do servidor
+    -Ferramentas
+        -Gerenciador do Serviços de Informação da Internet (IIS)
+            -Adcionar site
+                -Reiniciar servidor web
+        -DNS
+            -Zonas de pesquisa direta
+                -Nova zona
+                    -Zona primária
+                        -Para todos os serviddores DNS sendo executados em controladores de domíno neste domínio:
+                            -Nova Host (A ou AAAA)
+            -Todas as tarefas
+                -Reiniciar
