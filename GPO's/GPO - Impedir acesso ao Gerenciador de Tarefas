@@ -1,0 +1,22 @@
+GPO - Impedir acesso ao Gerenciador de Tarefas
+
+-Gerenciador do servidor
+    -Ferramentas
+        -Gerenciamento de Política de Grupo
+            -Objetos de Polítita de Grupo
+                -Novo
+                    -Editar
+                        -Configuração do Usuário
+                            -Políticas
+                                -Modelos Administrativos
+                                    -Sistema
+                                        -Opções de Ctrl+Alt+Del
+                                            -Remover Gerenciador de Tarefas
+                                                -Editar configuração de política
+                                                    -Habilitado
+-Aplicar em uma OU
+    -Botão direito
+        -Vincular com GPO Existente
+            -Selecionar a GPO desejada
+                -Abrir CMD
+                    -Aplicar o comando 'gpupdate /force'
