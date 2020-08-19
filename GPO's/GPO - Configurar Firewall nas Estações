@@ -1,0 +1,22 @@
+GPO - Configurar Firewall nas Estações
+
+-Gerenciador do servidor
+    -Ferramentas
+        -Gerenciamento de Política de Grupo
+            -Objetos de Polítita de Grupo
+                -Novo
+                    -Editar
+                        -Configuração do Computador
+                            -Políticas
+                                -Configuração do Windows
+                                    -Configurações de segurança
+                                        -Firewall do Windows com Segurança Avançada
+                                            -Aplicar regras necessárias
+        -Usuários e Computadores do Active Directory
+            -Mover os computadores para as OU onde será aplicada a GPO
+-Aplicar em uma OU
+    -Botão direito
+        -Vincular com GPO Existente
+            -Selecionar a GPO desejada
+                -Abrir CMD
+                    -Aplicar o comando 'gpupdate /force'

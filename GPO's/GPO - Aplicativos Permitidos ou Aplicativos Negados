@@ -1,0 +1,28 @@
+GPO - Aplicativos Permitidos ou Aplicativos Negados
+
+-Gerenciador do servidor
+    -Ferramentas
+        -Gerenciamento de Política de Grupo
+            -Objetos de Polítita de Grupo
+                -Novo
+                    -Editar
+                        -Configuração do Usuário
+                            -Políticas
+                                -Modelos Administrativos
+                                    -Sistema
+                                        -Não executar aplicativos do Windows especificados
+                                            -Propriedades
+                                                -Habilitado
+                                                    -Mostrar
+                                                        -Adcionar
+                                        -Executar apenas aplicativos do Windows especificados
+                                            -configuração de política
+                                                -Habilitado
+                                                    -Mostrar
+                                                        -Adcionar
+-Aplicar em uma OU
+    -Botão direito
+        -Vincular com GPO Existente
+            -Selecionar a GPO desejada
+                -Abrir CMD
+                    -Aplicar o comando 'gpupdate /force'

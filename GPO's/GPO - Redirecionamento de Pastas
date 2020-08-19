@@ -2,7 +2,7 @@ GPO - Redirecionamento de Pastas
 
 -Criar pasta para onde os arquivos serão redirecionados
     -Compartilhar a pasta na rede
-        -Dar permissão aos usuários e grupos 
+        -Dar permissão aos usuários e grupos
 -Gerenciador do servidor
     -Ferramentas
         -Gerenciamento de Política de Grupo
@@ -22,5 +22,9 @@ GPO - Redirecionamento de Pastas
                                                 -Caminho da Raiz
                                                     -Caminho da pasta para onde os arquivos serão redirecionados
                                                 -Aplicar e OK
--Abrir CMD
-    -Aplicar o comando 'gpupdate /force'
+-Aplicar em uma OU
+    -Botão direito
+        -Vincular com GPO Existente
+            -Selecionar a GPO desejada
+                -Abrir CMD
+                    -Aplicar o comando 'gpupdate /force'
