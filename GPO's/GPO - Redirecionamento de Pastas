@@ -1,0 +1,26 @@
+GPO - Redirecionamento de Pastas
+
+-Criar pasta para onde os arquivos serão redirecionados
+    -Compartilhar a pasta na rede
+        -Dar permissão aos usuários e grupos 
+-Gerenciador do servidor
+    -Ferramentas
+        -Gerenciamento de Política de Grupo
+            -Objetos de Polítita de Grupo
+                -Novo
+                    -Editar
+                        -Configuração do Usuário
+                            -Políticas
+                                -Configuração do Windows
+                                    -Redirecionamento de Pasta
+                                        -Escolher a pasta
+                                            -Propriedades
+                                                -Configuração
+                                                    -Básico
+                                                -Local da de destino
+                                                    -Criar uma pasta para cada usuário no caminho raiz
+                                                -Caminho da Raiz
+                                                    -Caminho da pasta para onde os arquivos serão redirecionados
+                                                -Aplicar e OK
+-Abrir CMD
+    -Aplicar o comando 'gpupdate /force'
