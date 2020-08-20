@@ -1,0 +1,33 @@
+GPO - Instalação de softwares
+
+-Gerenciador do servidor
+    -Ferramentas
+        -Gerenciamento de Política de Grupo
+            -Objetos de Polítita de Grupo
+                -Novo
+                    -Editar
+                        -Configuração do Computador
+                            -Modelos Administrativos
+                                -Componentes do Windows
+                                    -Windows Installer
+                                        -Sempre instalar com alto privilégio
+                                            -Habilitado
+                            -Políticas
+                                -Configurações de Softwares
+                                    -Instalação de softwares
+                                        -Novo
+                                            -Pacote
+                                                -Caminho dentro de uma pasta compartilhada de onde está o software no formato .msi
+                                                    -Atribuído    
+                        -Configuração do Usuário
+                            -Modelos Administrativos
+                                -Componentes do Windows
+                                    -Windows Installer
+                                        -Sempre instalar com alto privilégio
+                                            -Habilitado
+-Aplicar em uma OU
+    -Botão direito
+        -Vincular com GPO Existente
+            -Selecionar a GPO desejada
+                -Abrir CMD
+                    -Aplicar o comando 'gpupdate /force'

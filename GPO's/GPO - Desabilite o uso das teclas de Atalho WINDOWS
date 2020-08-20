@@ -1,0 +1,22 @@
+GPO - Desabilite o uso das teclas de Atalho WINDOWS
+
+-Gerenciador do servidor
+    -Ferramentas
+        -Gerenciamento de Política de Grupo
+            -Objetos de Polítita de Grupo
+                -Novo
+                    -Editar
+                        -Configuração do Usuário
+                            -Políticas
+                                -Modelos Administrativos
+                                    -Componentes do Windows
+                                        -Windows Explorer
+                                            -Desativar as teclas de acesso Windows+X
+                                                -Editar configuração de política
+                                                    -Habilitado
+-Aplicar em uma OU
+    -Botão direito
+        -Vincular com GPO Existente
+            -Selecionar a GPO desejada
+                -Abrir CMD
+                    -Aplicar o comando 'gpupdate /force'

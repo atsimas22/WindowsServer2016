@@ -1,0 +1,35 @@
+GPO - Servidor NTP | Sincronizar o Relógio do Windows com o Servidor
+
+-Gerenciador do servidor
+    -Ferramentas
+        -Gerenciamento de Política de Grupo
+            -Objetos de Polítita de Grupo
+                -Novo
+                    -Editar
+                        -Configuração do Computador
+                            -Modelos Administrativos
+                                -Sistema
+                                    -serviço de Tempo do Windows
+                                        -Provedores de Tempo
+                                            -Habilitar Windows NTP Client
+                                                -Habilitado
+                                            -Configurar Windows NTP Client
+                                                -Habilitado
+                                                -NtpServer
+                                                    -\\Nome_do_servidor
+-Gpedit.msc
+    -Configuração do Computador
+        -Modelos Administrativos
+            -Sistema
+                -serviço de Tempo do Windows
+                    -Provedores de Tempo
+                        -Habilitar Windows NTP Server
+                            -Habilitado                       
+                        -Configurar Windows NTP Client
+                            -Habilitado
+-Aplicar em uma OU
+    -Botão direito
+        -Vincular com GPO Existente
+            -Selecionar a GPO desejada
+                -Abrir CMD
+                    -Aplicar o comando 'gpupdate /force'

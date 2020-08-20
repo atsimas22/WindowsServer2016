@@ -1,0 +1,25 @@
+GPO - Regras de HASH | Proibir a execução de determinados softwares no seu Domínio
+
+-Gerenciador do servidor
+    -Ferramentas
+        -Gerenciamento de Política de Grupo
+            -Objetos de Polítita de Grupo
+                -Novo
+                    -Editar
+                        -Configuração do Usuário
+                            -Políticas
+                                -Configurações do Windows
+                                    -Configurações de segurança
+                                        -Diretivas de restrição de software
+                                            -Exibir/Ocultar Painel de Ações
+                                                -Mais ações
+                                                    -Novas diretivas de restrição de software
+                                                        -Regras adcionais
+                                                            -Nova regra de hash
+                                                                -Procurar
+-Aplicar em uma OU
+    -Botão direito
+        -Vincular com GPO Existente
+            -Selecionar a GPO desejada
+                -Abrir CMD
+                    -Aplicar o comando 'gpupdate /force'

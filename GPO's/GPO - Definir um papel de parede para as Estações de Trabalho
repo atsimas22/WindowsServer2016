@@ -1,0 +1,24 @@
+GPO - Definir um papel de parede para as Estações de Trabalho
+
+-Gerenciador do servidor
+    -Ferramentas
+        -Gerenciamento de Política de Grupo
+            -Objetos de Polítita de Grupo
+                -Novo
+                    -Editar
+                        -Configuração do Usuário
+                            -Políticas
+                                -Modelos Administrativos
+                                    -Área de Trabalho
+                                        -Papel de parede da Área de Trabalho
+                                            -Editar configuração de política
+                                                -Habilitado
+                                                -Caminho dentro de uma pasta compartilhada de onde está o papel de parede
+-Aplicar em uma OU
+    -Botão direito
+        -Vincular com GPO Existente
+            -Selecionar a GPO desejada
+                -Abrir CMD
+                    -Aplicar o comando 'gpupdate /force'
+                                                
+                                                    

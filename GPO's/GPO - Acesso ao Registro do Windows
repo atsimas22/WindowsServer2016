@@ -1,0 +1,21 @@
+GPO - Acesso ao Registro do Windows
+
+-Gerenciador do servidor
+    -Ferramentas
+        -Gerenciamento de Política de Grupo
+            -Objetos de Polítita de Grupo
+                -Novo
+                    -Editar
+                        -Configuração do Usuário
+                            -Políticas
+                                -Modelos Administrativos
+                                    -Sistema
+                                        Impedir acesso a ferramentas de edição do Registro
+                                            -Editar configuração de política
+                                                -Habilitado
+-Aplicar em uma OU
+    -Botão direito
+        -Vincular com GPO Existente
+            -Selecionar a GPO desejada
+                -Abrir CMD
+                    -Aplicar o comando 'gpupdate /force'
