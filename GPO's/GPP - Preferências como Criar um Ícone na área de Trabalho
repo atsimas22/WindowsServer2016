@@ -1,0 +1,25 @@
+GPP - Preferências como Criar um Ícone na área de Trabalho
+
+-Gerenciador do servidor
+    -Ferramentas
+        -Gerenciamento de Política de Grupo
+            -Objetos de Polítita de Grupo
+                -Novo
+                    -Editar
+                        -Preferências
+                            -Configurações do Windows
+                                -Atalhos
+                                    -Novo
+                                        -Atalho
+                                            -Tipo de destino
+                                                -URL
+                                            -Local
+                                                -Área de Trabalho
+                                            -URL de destino
+                                            -Caminho de arquivo de ícone
+-Aplicar em uma OU
+    -Botão direito
+        -Vincular com GPO Existente
+            -Selecionar a GPO desejada
+                -Abrir CMD
+                    -Aplicar o comando 'gpupdate /force'
