@@ -1,0 +1,24 @@
+GPO - Grupos Restritos
+
+-Gerenciador do servidor
+    -Ferramentas
+        -Gerenciamento de Política de Grupo
+            -Objetos de Polítita de Grupo
+                -Novo
+                    -Editar
+                        -Configuração do Computador
+                            -Políticas
+                                -Configurações do Windows
+                                    -Configurações de segurança
+                                        -Grupos restritos
+                                            -Adcionar grupo
+                                                -Procurar
+                                                    -Este grupo é um membro de
+                                                        -Adcionar
+                                                            -administradores
+-Aplicar em uma OU
+    -Botão direito
+        -Vincular com GPO Existente
+            -Selecionar a GPO desejada
+                -Abrir CMD
+                    -Aplicar o comando 'gpupdate /force'

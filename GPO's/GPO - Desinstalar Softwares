@@ -1,0 +1,22 @@
+GPO - Desinstalar Softwares
+
+-Gerenciador do servidor
+    -Ferramentas
+        -Gerenciamento de Política de Grupo
+            -Objetos de Polítita de Grupo
+                -GPO de instalação de software
+                    -Editar
+                        -Configuração do Computador
+                            -Políticas
+                                -Configurações de Software
+                                    -Instalação de software
+                                        -selecione o software que deseja desinstalar
+                                            -Todas as tarefas
+                                                -Remover
+
+-Aplicar em uma OU
+    -Botão direito
+        -Vincular com GPO Existente
+            -Selecionar a GPO desejada
+                -Abrir CMD
+                    -Aplicar o comando 'gpupdate /force'
