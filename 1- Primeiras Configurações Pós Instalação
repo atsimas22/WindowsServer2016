@@ -4,6 +4,6 @@ Primeiras Configurações Pós Instalação
 
 -Alterar nome do computador
 -Descrição do servidor
--Alterar endereço IPv4 em modo estático
+-Alterar endereço IPv4 para modo estático
     - IP, Mascara Gateway(Se houver)
 -Atualizar o servidor via windows update
